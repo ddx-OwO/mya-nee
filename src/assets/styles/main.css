@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: lightblue; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#9ae2c5, #ffffff);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url('/assets/images/circle.png');
+    background-size: 75px 75px;
+    background-position: -40px 200px;
+}
+
+.container-image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex: 2 100%;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.hinata > img, .miyako > img {
+    width: auto;
+    height: 256px;
+}
+
+@media screen and (min-width: 1440px) {
+    .hinata > img, .miyako > img {
+        width: auto;
+        height: 25vh;
+    }
+}
+
+.tap-count {
+    flex: 1 100%;
+    font-weight: bold;
+}
