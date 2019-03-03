@@ -13,4 +13,4 @@ Click/Tap hinata to hear hinata saying "Mya-nee!".
 Pardon for my useless project. I made it with vanilla Javascript and pure CSS. But i'm using animate.css for animation purpose.
 
 ## License
-[MIT](https://github.com/dwzzzl/mya-nee/blob/master/LICENSE.md)
+[MIT](https://github.com/dwzzzl/mya-nee/blob/master/LICENSE)
